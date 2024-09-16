@@ -1,21 +1,70 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="profile-card">
-    <div class="profile-info">
-        <h1>Profile Card</h1>
-        <span>Placeholder | Placeholder | Placeholder</span>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum neque id diam semper, lobortis
-            sagittis dui egestas. Mauris bibendum elementum augue, nec sollicitudin est ultricies sit amet. Quisque
-            dapibus, arcu mattis accumsan condimentum, eros nibh blandit lacus, eu tempus erat enim ac lacus.</p>
-        <div class="profile-links">
-            <a href="#">GitHub</a>
-            <a href="#">Mastodon</a>
-            <a href="#">Instagram</a>
+<header>
+    <h1>Name LastName</h1>
+    <p>9876 Fake St, Real City, ZZ 439A74</p>
+    <p>123-456-7890 | my.email@example.com</p>
+</header>
+
+<div class="experience">
+    <h2>Work Experience</h2>
+    <hr />
+    <div class="education-row">
+        <div class="education-date">
+            10/2026 - Present
+        </div>
+        <div class="education-title">
+            Bachelor of Science Information
+        </div>
+        <div class="education-description">
+            My first steps in informatics earning a bachelor degree in informatics.
         </div>
     </div>
-    <div class="profile-picture">
-        <img alt="Profile Picture" src="https://placehold.co/200x200" width="200" height="200" />
+
+    <div class="education-row">
+        <div class="education-date">
+            10/2026 - Present
+        </div>
+        <div class="education-title">
+            Bachelor of Science Information
+        </div>
+        <div class="education-description">
+            My first steps in informatics earning a bachelor degree in informatics.
+        </div>
+    </div>
+
+    <div class="education-row">
+        <div class="education-date">
+            10/2026 - Present
+        </div>
+        <div class="education-title">
+            Bachelor of Science Information
+        </div>
+        <div class="education-description">
+            My first steps in informatics earning a bachelor degree in informatics.
+        </div>
     </div>
 </div>
+
+<div class="education">
+    <h2>Education</h2>
+    <hr />
+    <div class="education-row">
+        <div class="education-date">
+            10/2026 - 10/2029
+        </div>
+        <div class="education-title">
+            Bachelor of Science Information
+        </div>
+        <div class="education-description">
+            My first steps in informatics earning a bachelor degree in informatics.
+        </div>
+    </div>
+</div>
+
+<footer>
+    <a href="#"><i class="fa-brands fa-github"></i></a>
+    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+</footer>
 {% endblock content %}
